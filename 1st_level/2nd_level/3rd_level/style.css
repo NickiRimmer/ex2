@@ -16,6 +16,10 @@ main, section {
     background-color: #dfdfdf;
 }
 
+.img-link {
+    width: 80%;
+}
+
 th, td  {
     border-collapse: collapse;
     border-style: solid;
