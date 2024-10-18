@@ -4,7 +4,6 @@ function calc(event) {
     let a=document.getElementsByName('kolichestvo');
     let b=document.getElementsByName('tovar');
     let ai = Number(a[0].value);
-    console.log(ai * b[0].value);
     if (/^\d+$/.test(a[0].value)){
         res.innerHTML=ai * b[0].value;
     }
@@ -16,7 +15,7 @@ function calc(event) {
 };
 
 window.addEventListener('DOMContentLoaded', function (event) {
-    console.log("DOM fully loaded and parsed");
+    console.log("DOM fully loaded and parsed // script1");
     let button = document.getElementById("button1");
     button.addEventListener("click", calc);
 });

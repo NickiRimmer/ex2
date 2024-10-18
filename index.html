@@ -4,6 +4,7 @@
     <head>
         <title>MC Shcherbina</title>
         <script src="script.js" defer></script>
+        <script src="script2.js" defer></script>
     </head>
     <body>
         <input name="kolichestvo" type="text" placeholder="Количество">
@@ -16,6 +17,24 @@
         <button id="button1">Посчитать</button>
         <br><br><br>
         <div>Итого: <span id="res"></span></div>
-        
+
+        <h2><br><br><br> Задание 6 <br></h2>
+        <input name="kol2" type="text" placeholder="Количество" id="kol2">
+        <div class="radios" id="radios">
+            <label><input type="radio" name="r1" value="1" id="r1">Услуга 1</label>
+            <label><input type="radio" name="r1" value="2" id="r2">Услуга 2</label>
+            <label><input type="radio" name="r1" value="3" id="r3">Услуга 3</label>
+        </div>
+        <select name="opt1" id="opt1">
+            <option value="1">Опция 1</option>
+            <option value="2">Опция 2</option>
+            <option value="3">Опция 3</option>
+        </select>
+        <div class="check" id="check" style="display: none;">
+            <label><input name="check1" type="checkbox" value="5">Опция 1</label>
+            <label><input name="check2" type="checkbox" value="7">Опция 2</label>
+        </div>
+        <br><br>
+        <div>Итого: <span id="res2"></span> рублей</div>
     </body>
 </html>
